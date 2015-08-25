@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		747893AE1B69FF480035C07E /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747893AD1B69FF480035C07E /* RotateViewController.m */; };
 		74DDDE591B68DFDB00F79777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDE581B68DFDB00F79777 /* main.m */; };
 		74DDDE5C1B68DFDB00F79777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDE5B1B68DFDB00F79777 /* AppDelegate.m */; };
 		74DDDE5F1B68DFDB00F79777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DDDE5E1B68DFDB00F79777 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		747893AC1B69FF480035C07E /* RotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		747893AD1B69FF480035C07E /* RotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
 		74DDDE531B68DFDB00F79777 /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DDDE571B68DFDB00F79777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74DDDE581B68DFDB00F79777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				74DDDE5B1B68DFDB00F79777 /* AppDelegate.m */,
 				74DDDE5D1B68DFDB00F79777 /* ViewController.h */,
 				74DDDE5E1B68DFDB00F79777 /* ViewController.m */,
+				747893AC1B69FF480035C07E /* RotateViewController.h */,
+				747893AD1B69FF480035C07E /* RotateViewController.m */,
 				74DDDE601B68DFDB00F79777 /* Main.storyboard */,
 				74DDDE631B68DFDB00F79777 /* Images.xcassets */,
 				74DDDE651B68DFDB00F79777 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				74DDDE5F1B68DFDB00F79777 /* ViewController.m in Sources */,
 				74DDDE5C1B68DFDB00F79777 /* AppDelegate.m in Sources */,
 				74DDDE591B68DFDB00F79777 /* main.m in Sources */,
+				747893AE1B69FF480035C07E /* RotateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				74DDDE781B68DFDB00F79777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74DDDE791B68DFDB00F79777 /* Build configuration list for PBXNativeTarget "CoreAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				74DDDE7B1B68DFDB00F79777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
