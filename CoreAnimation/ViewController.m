@@ -41,7 +41,8 @@
     [self begin];
 }
 
-- (void)begin{
+- (void)begin
+{
     [self firstAnimation];
     [self performSelector:@selector(secondAnimation) withObject:nil afterDelay:headTime];
     [self performSelector:@selector(thirdAnimation) withObject:nil afterDelay:bodyTime + headTime];

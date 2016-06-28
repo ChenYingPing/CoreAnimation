@@ -11,9 +11,9 @@
 #define Radius 40
 
 @interface RotateViewController ()
+
 @property (weak, nonatomic) IBOutlet UIView *blueView;
 @property (weak, nonatomic) IBOutlet UIView *pinkView;
-
 @property (weak, nonatomic) IBOutlet UIView *bottomView;
 
 @end
@@ -34,6 +34,7 @@
     [self subViewAnim];
     [self bottomViewAnim];
 }
+
 - (void)bottomViewAnim
 {
     // 1.创建动画对象
@@ -48,6 +49,7 @@
     // 3.添加动画
     [self.bottomView.layer addAnimation:anim forKey:nil];
 }
+
 - (void)subViewAnim
 {
     CAKeyframeAnimation *anim = [CAKeyframeAnimation animation];
